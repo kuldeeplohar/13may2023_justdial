@@ -1,0 +1,57 @@
+body{
+    background-color :#E8E8E8;
+}
+.k_tbdr{
+   
+    height: 5000px;
+
+}
+header{
+    height: 80px;
+    position: fixed;
+    width: 94.5%;
+    margin: auto;
+  
+}
+
+main{
+    height:4046px;
+    background-color:green;
+    position: relative;
+    margin-top: 83px;
+}
+footer{
+    
+    background-color: brown;
+}
+
+.f1{
+    height: 297px;
+}
+
+.f2{
+    height: 96px;
+}
+
+.f3{
+    height: 136px;
+}
+
+.f4{
+    height: 300px;
+}
+
+.f5{
+    height: 121px;
+}
+
+
+@media(min-width:1400px){
+  	.container
+    {max-width: 1440px;}
+}
+
+
+
+
+   
