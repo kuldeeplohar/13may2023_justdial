@@ -1,16 +1,52 @@
-body{
-    background-color :#E8E8E8;
-}
+
 .k_tbdr{
    
     height: 5000px;
-
 }
+
+
+.k_menu > li > a:hover{
+
+   background-color:#ededed
+    ;
+   cursor: pointer;
+   border-radius: 10px;
+}
+   .k_submenu > li:hover{
+
+   background-color:#ededed
+    ;
+   cursor: pointer;
+  
+}
+
+.k_menu > li:hover ul{
+    display:block;
+}
+
+.k_submenu{
+   
+    background-color:white;
+    display: none;  
+    padding-right: 30px;
+    padding-left: 10px;
+    
+}
+
+.k_submenu > li{
+
+    margin-top: 8px;
+    
+}
+
+
 header{
     height: 80px;
     position: fixed;
-    width: 94.5%;
+   
     margin: auto;
+    width: 1324px;
+   
   
 }
 
@@ -19,10 +55,14 @@ main{
     background-color:green;
     position: relative;
     margin-top: 83px;
+  
+ 
+  
 }
 footer{
     
     background-color: brown;
+
 }
 
 .f1{
