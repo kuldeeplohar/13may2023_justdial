@@ -1,8 +1,23 @@
 
 .k_tbdr{
    
-    height: 5000px;
+    min-height: 5000px;
+   
 }
+.kk{
+    border: 2px dashed black;
+    width: 390px;
+    margin-left: 12px;
+    
+
+}
+.k{
+    border: 2px dashed red;
+}
+.kk1{
+    box-shadow: none !important; 
+}
+
 
 
 .k_menu > li > a:hover{
@@ -41,18 +56,19 @@
 
 
 header{
-    height: 80px;
+    height: 90px;
     position: fixed;
    
     margin: auto;
     width: 1324px;
+    
    
   
 }
 
 main{
     height:4046px;
-    background-color:green;
+    background-color:darkgrey;
     position: relative;
     margin-top: 83px;
   
@@ -86,8 +102,8 @@ footer{
 }
 
 
-@media(min-width:1400px){
-  	.container
+@media(min-width:100px){
+  	.container.container-sm .container-md	.container-lg .container-xl	.container-xxl	.container-fluid	
     {max-width: 1440px;}
 }
 
