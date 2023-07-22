@@ -1,9 +1,24 @@
 
 .k_tbdr{
    
-    min-height: 5000px;
+    height: 85px;
+    font-family:sans-serif;
+    color: #414e5a;
+    font-size: small;
+    text-align: center;
+    font-weight: 600;
+    font-style:normal;
+    
+
+  
    
 }
+kk2{
+    border: 1px dashed red;
+   height: 160px; 
+}
+
+
 .kk{
     border: 2px dashed black;
     width: 390px;
@@ -11,13 +26,10 @@
     
 
 }
-.k{
-    border: 2px dashed red;
-}
+
 .kk1{
     box-shadow: none !important; 
 }
-
 
 
 .k_menu > li > a:hover{
@@ -68,7 +80,7 @@ header{
 
 main{
     height:4046px;
-    background-color:darkgrey;
+    background-color:white;
     position: relative;
     margin-top: 83px;
   
