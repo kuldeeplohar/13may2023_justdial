@@ -1,125 +1,143 @@
+.k_tbdr {
 
-.k_tbdr{
-   
     height: 85px;
-    font-family:sans-serif;
+    font-family: sans-serif;
     color: #414e5a;
     font-size: small;
     text-align: center;
     font-weight: 600;
-    font-style:normal;
-    
-
-  
-   
+    font-style: normal;
 }
-kk2{
+
+
+
+.image-container {
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    text-align: start;
+    color: white;
+    padding: 11px;
+    padding-bottom: 0px;
+    padding-left: 7px;
+    font-weight: bold;
+
+
+}
+
+
+
+kk2 {
     border: 1px dashed red;
-   height: 160px; 
+    height: 36px;
 }
 
 
-.kk{
+.kk {
     border: 2px dashed black;
     width: 390px;
     margin-left: 12px;
-    
+
 
 }
 
-.kk1{
-    box-shadow: none !important; 
+.kk1 {
+    box-shadow: none !important;
 }
 
 
-.k_menu > li > a:hover{
+.k_menu>li>a:hover {
 
-   background-color:#ededed
-    ;
-   cursor: pointer;
-   border-radius: 10px;
-}
-   .k_submenu > li:hover{
-
-   background-color:#ededed
-    ;
-   cursor: pointer;
-  
+    background-color: #ededed;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
-.k_menu > li:hover ul{
-    display:block;
+.k_submenu>li:hover {
+
+    background-color: #ededed;
+    cursor: pointer;
+
 }
 
-.k_submenu{
-   
-    background-color:white;
-    display: none;  
+.k_menu>li:hover ul {
+    display: block;
+}
+
+.k_submenu {
+
+    background-color: white;
+    display: none;
     padding-right: 30px;
     padding-left: 10px;
-    
+
 }
 
-.k_submenu > li{
+.k_submenu>li {
 
     margin-top: 8px;
-    
+
 }
 
 
-header{
+header {
     height: 90px;
     position: fixed;
-   
+
     margin: auto;
     width: 1324px;
-    
-   
+
+
 
 }
 
-main{
-    height:4046px;
-    background-color:white;
+main {
+    height: 1546px;
+    background-color: white;
     position: relative;
     margin-top: 83px;
-  
- 
-  
+
+
+
 }
-.footer{
-    
+
+.footer {
+
     background-color: brown;
 
 }
-
-.f1{
+f01{
+    height: 100px;
+    border: 1px dashed red;
+    
+}
+.f1 {
     height: 297px;
 }
 
-.f2{
+.f2 {
     height: 96px;
 }
 
-.f3{
+.f3 {
     height: 136px;
 }
 
-.f4{
+.f4 {
     height: 300px;
 }
 
-.f5{
+.f5 {
     height: 121px;
 }
 
 
-@media(min-width:100px){
-  	.container.container-sm .container-md	.container-lg .container-xl	.container-xxl	.container-fluid	
-    {max-width: 1440px;}
+@media(min-width:100px) {
+    .container.container-sm .container-md .container-lg .container-xl .container-xxl .container-fluid {
+        max-width: 1440px;
+    }
 }
-
-
-
-
-   
