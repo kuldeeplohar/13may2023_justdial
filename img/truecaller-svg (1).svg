@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #127fff;
+      }
+
+      .cls-3 {
+        fill: #2589ff;
+      }
+
+      .cls-4 {
+        fill: #3391ff;
+      }
+
+      .cls-5 {
+        fill: #4b9eff;
+      }
+
+      .cls-6 {
+        fill: #5ea8ff;
+      }
+
+      .cls-7 {
+        fill: #71b2ff;
+      }
+
+      .cls-8 {
+        filter: url(#Ellipse_14907);
+      }
+    </style>
+    <filter id="Ellipse_14907" x="0" y="0" width="33" height="33" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="truecaller-svgrepo-com" transform="translate(-4.49 -4.99)">
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 4.49, 4.99)">
+      <circle id="Ellipse_14907-2" data-name="Ellipse 14907" class="cls-1" cx="15" cy="15" r="15" transform="translate(1.5 1)"/>
+    </g>
+    <g id="TRUE-B.ST" transform="translate(12.674 12.593)">
+      <g id="_127fffff" data-name="#127fffff" transform="translate(0.316 0.397)">
+        <path id="Layer" class="cls-2" d="M2.125.693A1.655,1.655,0,0,1,3.268.418a1.055,1.055,0,0,1,.689.525c.171.292.363.568.551.849C3.235,3.039,1.981,4.308.722,5.568A13.615,13.615,0,0,1,.361,3.3,2.009,2.009,0,0,1,.574,1.859a1.742,1.742,0,0,1,.479-.476A6.653,6.653,0,0,1,2.125.693Z" transform="translate(-0.316 -0.397)"/>
+      </g>
+      <g id="_2589ffff" data-name="#2589ffff" transform="translate(0.722 1.791)">
+        <path id="Layer-2" data-name="Layer" class="cls-3" d="M42.585,132.5l0,0a5.935,5.935,0,0,1,.969,1.808,1.728,1.728,0,0,1-.179,1.327c-.439.719-.887,1.433-1.3,2.167l-.038,0c-.138-.007-.215.128-.307.209-.547.544-1.084,1.1-1.641,1.634a14.63,14.63,0,0,1-1.29-3.37C40.059,135.017,41.313,133.749,42.585,132.5Z" transform="translate(-38.8 -132.5)"/>
+      </g>
+      <g id="_3391ffff" data-name="#3391ffff" transform="translate(2.012 7.095)">
+        <path id="Layer-3" data-name="Layer" class="cls-4" d="M162.741,635.682c.092-.081.169-.216.307-.209,0,.025,0,.077,0,.1a13,13,0,0,0,2.2,3.285c-.6.592-1.179,1.194-1.787,1.773a15.209,15.209,0,0,1-2.362-3.318C161.657,636.781,162.194,636.226,162.741,635.682Z" transform="translate(-161.1 -635.472)"/>
+      </g>
+      <g id="_4b9effff" data-name="#4b9effff" transform="translate(4.374 10.483)">
+        <path id="Layer-4" data-name="Layer" class="cls-5" d="M386.887,956.7a12.813,12.813,0,0,0,3.381,2.283c-.039.053-.074.107-.116.157-.572.581-1.168,1.141-1.721,1.74a14.808,14.808,0,0,1-3.331-2.408C385.707,957.894,386.291,957.292,386.887,956.7Z" transform="translate(-385.1 -956.7)"/>
+      </g>
+      <g id="_5ea8ffff" data-name="#5ea8ffff" transform="translate(7.705 11.172)">
+        <path id="Layer-5" data-name="Layer" class="cls-6" d="M704.916,1022.312a1.741,1.741,0,0,1,1.385-.219,6.377,6.377,0,0,1,1.925,1.05c-.292.265-.559.557-.843.83-.573.534-1.094,1.118-1.66,1.656-.2.2-.406.4-.6.605a4.736,4.736,0,0,0-.612.656,14.488,14.488,0,0,1-3.61-1.364c.554-.6,1.15-1.159,1.721-1.74.042-.051.077-.1.116-.157C703.465,1023.195,704.2,1022.762,704.916,1022.312Z" transform="translate(-700.9 -1022.035)"/>
+      </g>
+      <g id="_71b2ffff" data-name="#71b2ffff" transform="translate(11.315 12.28)">
+        <path id="Layer-6" data-name="Layer" class="cls-7" d="M1046.916,1127.1c.249.169.5.335.758.488a1.036,1.036,0,0,1,.513.726,1.688,1.688,0,0,1-.268,1.064,7.3,7.3,0,0,1-.861,1.293,1.594,1.594,0,0,1-1.208.54,8.358,8.358,0,0,1-.861-.069,12.686,12.686,0,0,1-1.79-.3,4.723,4.723,0,0,1,.612-.656c.2-.207.4-.4.6-.605.566-.538,1.087-1.122,1.66-1.656C1046.357,1127.657,1046.623,1127.365,1046.916,1127.1Z" transform="translate(-1043.2 -1127.1)"/>
+      </g>
+    </g>
+  </g>
+</svg>
