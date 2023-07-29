@@ -29,6 +29,11 @@
     height: 230px;
     border: 1px dashed red;
 }
+.m16{
+    border:1px dashed red;
+    height: 200px;
+    
+}
 
  .m14:hover{
     cursor: pointer;
@@ -36,8 +41,18 @@
    
     
     
- }
 
+ }
+.k_border{
+    border: 2px solid     #414e5a;
+    ;
+    width: 620px;
+    height: 230px;
+    color: #414e5a;
+    border-radius: 25px;
+    margin-left: 15px;
+    
+}
 .k_tbdr {
 
     height: 85px;
@@ -136,7 +151,7 @@ header {
 }
 
 main {
-    height: 1546px;
+    height: 2000px;
     background-color: white;
     position: relative;
     margin-top: 83px;
