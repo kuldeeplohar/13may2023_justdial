@@ -34,6 +34,12 @@
     height: 200px;
     
 }
+.m17{
+     border: 1px solid black;
+  
+
+}
+
 
  .m14:hover{
     cursor: pointer;
@@ -53,6 +59,9 @@
     margin-left: 15px;
     
 }
+
+    
+
 .k_tbdr {
 
     height: 85px;
@@ -86,9 +95,11 @@
 
 
 
-kk2 {
+.kk2 {
     border: 1px dashed red;
-    height: 36px;
+    height: 236px;
+    width: 1270px;
+    
 }
 
 
@@ -151,7 +162,7 @@ header {
 }
 
 main {
-    height: 2000px;
+    height: 4000px;
     background-color: white;
     position: relative;
     margin-top: 83px;
