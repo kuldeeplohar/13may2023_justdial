@@ -35,10 +35,43 @@
     
 }
 .m17{
-     border: 1px solid black;
-  
+     border: 3px solid black;
+     border-color: #414e5a;
+     
 
 }
+
+.m30{
+    height: 35px;
+    border: 1px dashed red;
+}
+
+.m31{
+    height: 325px;
+    border:1px dashed red;
+}
+
+.k_zoom:hover >img {
+    transform-origin: right bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.2s;
+}
+
+.k_zoom:hover > img {
+    transform: scale3d(1.04,1.04,1);
+}
+
+.k_zoom:hover >span {
+    transform-origin: left bottom;
+    transform: scale3d(1,1,1);
+    transition: all linear 0.2s;
+}
+.k_zoom:hover > span {
+    transform: scale3d(1.08,1.08,1);
+}
+
+
+
 
 
  .m14:hover{
@@ -201,6 +234,30 @@ main {
     height: 121px;
 }
 
+.k_animation{
+    animation-name: myanimation;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-duration: 2s;
+    animation-direction:alternate;
+}
+
+@keyframes myanimation {
+
+    0%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(0px);
+    }
+    60%{
+        transform: translateY(-50px);
+    }
+
+    100%{
+        transform: translateY(-50px);
+    }
+}
 
 @media(min-width:100px) {
     .container.container-sm .container-md .container-lg .container-xl .container-xxl .container-fluid {
