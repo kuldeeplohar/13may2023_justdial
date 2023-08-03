@@ -49,22 +49,27 @@
 .m31{
     height: 325px;
     border:1px dashed red;
+    
 }
-
+.m32{
+    border: 1px dashed red;
+    width: 402px;
+    height: 330px;
+}
 .k_zoom:hover >img {
     transform-origin: right bottom;
     transform: scale3d(1,1,1);
-    transition: all linear 0.2s;
+    transition: all linear 0.3s;
 }
 
 .k_zoom:hover > img {
-    transform: scale3d(1.04,1.04,1);
+    transform: scale3d(1.02,1.02,1);
 }
 
 .k_zoom:hover >span {
     transform-origin: left bottom;
     transform: scale3d(1,1,1);
-    transition: all linear 0.2s;
+    transition: all linear 0.3s;
 }
 .k_zoom:hover > span {
     transform: scale3d(1.08,1.08,1);
@@ -242,6 +247,8 @@ main {
     animation-direction:alternate;
 }
 
+
+
 @keyframes myanimation {
 
     0%{
@@ -257,7 +264,111 @@ main {
     100%{
         transform: translateY(-50px);
     }
+
 }
+
+k_slide{
+    animation-name: myanimation;
+    animation-iteration-count:inherit;
+    animation-timing-function:linear;
+    animation-duration: 50s;
+    animation-direction:alternate;
+}
+
+
+keyframes myanimation {
+
+    0%{
+        transform: translateX(0px)
+    }
+    3%{
+        transform: translateX(0px );
+    }
+   7%{ 
+    transform: translateX(-435px);
+   }
+    
+    8% {
+        transform: translateX(-435px) ;
+    }
+    
+    14%{
+        transform: translateX(-870px) ;
+    }
+    15%{
+        transform: translateX(-870px) ;
+    }
+    21%{
+        transform: translateX(-1305px) ;
+    }
+    22%{
+        transform: translateX(-1305px) ;
+    }
+    28%{
+        transform: translateX(-1740px) ;
+    }
+    29%{
+        transform: translateX(-1740px) ;
+    }
+    35%{
+        transform: translateX(-2175px) ;
+    }
+    36%{
+        transform: translateX(-2175px) ;
+    }
+    42%{
+        transform: translateX(-2610px) ;
+    }
+    43%{
+        transform: translateX(-2610px) ;
+    }
+    49%{
+        transform: translateX(-3045px) ;
+    }
+    50%{
+        transform: translateX(-3045px) ;
+    }
+    56%{
+        transform: translateX(-3480px) ;
+    }
+    57%{
+        transform: translateX(-3480px) ;
+    }
+    63%{
+        transform: translateX(-3915px) ;
+    }
+    64%{
+        transform: translateX(-4350px) ;
+    }
+    70%{
+        transform: translateX(-4350px) ;
+    }
+    71%{
+        transform: translateX(-4785px) ;
+    }
+    77%{
+        transform: translateX(-4785px) ;
+    }
+    78%{
+        transform: translateX(-5220px) ;
+    }
+    84%{
+        transform: translateX(-) ;
+    }
+    85%{
+        transform: translateX(-) ;
+    }
+    91%{
+        transform: translateX(-) ;
+    }
+ 
+    100%{
+        transform: translatex(-);
+    }
+
+}
+
+
 
 @media(min-width:100px) {
     .container.container-sm .container-md .container-lg .container-xl .container-xxl .container-fluid {
