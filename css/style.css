@@ -267,7 +267,7 @@ main {
 
 }
 
-k_slide{
+.k_slide{
     animation-name: myanimation;
     animation-iteration-count:inherit;
     animation-timing-function:linear;
@@ -276,7 +276,7 @@ k_slide{
 }
 
 
-keyframes myanimation {
+@keyframes myanimation {
 
     0%{
         transform: translateX(0px)
