@@ -56,6 +56,14 @@
     width: 402px;
     height: 330px;
 }
+
+.m33{
+    border: 1px dashed red;
+    width: 402px;
+        
+    }
+
+
 .k_zoom:hover >img {
     transform-origin: right bottom;
     transform: scale3d(1,1,1);
@@ -200,7 +208,7 @@ header {
 }
 
 main {
-    height: 4000px;
+    height: 3470px;
     background-color: white;
     position: relative;
     margin-top: 83px;
@@ -220,16 +228,17 @@ main {
     
 }
 .f1 {
-    height: 297px;
+    height: 112px;
 }
 
 .f2 {
-    height: 96px;
+    height: 250px;
 }
 
 .f3 {
-    height: 136px;
+    height: 1170px;
 }
+
 
 .f4 {
     height: 300px;
@@ -267,16 +276,16 @@ main {
 
 }
 
-.k_slide{
+k_slide{
     animation-name: myanimation;
     animation-iteration-count:inherit;
     animation-timing-function:linear;
-    animation-duration: 50s;
+    animation-duration: 70s;
     animation-direction:alternate;
 }
 
 
-@keyframes myanimation {
+keyframes myanimation {
 
     0%{
         transform: translateX(0px)
