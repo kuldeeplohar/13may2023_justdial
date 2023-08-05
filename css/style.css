@@ -1,21 +1,16 @@
 
-.m11{
-    height: 100px;
-    border: 1px dashed red;
-    
-}
-.m12{
-    border: 1px dashed black;
-}
+
+
 .m22{
     height: 245px;
-    border: 1px dashed red;
+    border: 1px dashed white;
 }
 
 .m13{
     height: 120px;
     width: 120px;
-    border: 1px dashed red
+    
+   
 
 }
 .m14{
@@ -25,26 +20,26 @@
 
     
 }
-.m15{
-    height: 230px;
-    border: 1px dashed red;
-}
-.m16{
-    border:1px dashed red;
+
+.m16 {
+    border:1px dashed white;
     height: 200px;
     
 }
+.m16 >  :hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
 .m17{
-     border: 3px solid black;
+     border: 2px solid ;
      border-color: #414e5a;
+     border-radius: 5px;
+     
+      
      
 
 }
 
-.m30{
-    height: 35px;
-    border: 1px dashed red;
-}
 
 .m31{
     height: 325px;
