@@ -136,12 +136,9 @@
 
 
 
-.kk2 {
-    border: 1px dashed red;
-    height: 236px;
-    width: 1270px;
+
     
-}
+
 
 
 .kk {
@@ -198,30 +195,28 @@ header {
     margin: auto;
     width: 1324px;
 
-
-
 }
 
-main {
-    height: 3470px;
+ .xlmain{
+    min-height: 3470px;
+    max-width: 1310px !important; 
     background-color: white;
     position: relative;
     margin-top: 83px;
-
-
-
+    box-sizing: content-box;
 }
+
+
+
 
 .footer {
 
     background-color: brown;
 
 }
-.f01{
-    height: 300px;
-    border: 1px dashed red;
+
     
-}
+
 .f1 {
     height: 112px;
 }
@@ -244,6 +239,24 @@ main {
 
 .f5 {
     height: 121px;
+}
+.outer-container {
+    width: 1310px; /* Desired visible width */
+    overflow: hidden; /* Hide content that overflows */
+  
+}
+
+.inner-container {
+    width: 6100px; /* Full content width */
+    display: flex;
+    transform: translateX(0); /* Initial position */
+    animation: myanimation 20s linear infinite alternate; /* Adjust duration as needed */
+}
+
+@keyframes myanimation {
+    to {
+        transform: translateX(calc(1350px - 100%)); /* Slide the content */
+    }
 }
 
 
@@ -277,72 +290,74 @@ main {
 
 }
 
-k_slide{
+.k_slide{
     animation-name: myanimation;
     animation-iteration-count:inherit;
     animation-timing-function:linear;
-    animation-duration: 70s;
+    animation-duration: 50s;
     animation-direction:alternate;
+    
+   
 }
 
 
-keyframes myanimation {
+@keyframes myanimation {
 
     0%{
         transform: translateX(0px)
     }
     3%{
-        transform: translateX(0px );
+        transform: translateX(-435px );
     }
    7%{ 
     transform: translateX(-435px);
    }
     
     8% {
-        transform: translateX(-435px) ;
+        transform: translateX(-870px) ;
     }
     
     14%{
         transform: translateX(-870px) ;
     }
     15%{
-        transform: translateX(-870px) ;
+        transform: translateX(-1305px) ;
     }
     21%{
         transform: translateX(-1305px) ;
     }
     22%{
-        transform: translateX(-1305px) ;
+        transform: translateX(-1740px) ;
     }
     28%{
         transform: translateX(-1740px) ;
     }
     29%{
-        transform: translateX(-1740px) ;
+        transform: translateX(-2175px) ;
     }
     35%{
         transform: translateX(-2175px) ;
     }
     36%{
-        transform: translateX(-2175px) ;
+        transform: translateX(-2610px) ;
     }
     42%{
         transform: translateX(-2610px) ;
     }
     43%{
-        transform: translateX(-2610px) ;
+        transform: translateX(-3045px) ;
     }
     49%{
         transform: translateX(-3045px) ;
     }
     50%{
-        transform: translateX(-3045px) ;
+        transform: translateX(-3480px) ;
     }
     56%{
         transform: translateX(-3480px) ;
     }
     57%{
-        transform: translateX(-3480px) ;
+        transform: translateX(-3915px) ;
     }
     63%{
         transform: translateX(-3915px) ;
