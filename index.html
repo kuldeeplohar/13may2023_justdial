@@ -6,12 +6,94 @@
         <title>JustDial</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
+        <!-- Link to Bootstrap CSS (Example) -->
+        <link rel="stylesheet" href="path/to/bootstrap.css">
+
+<!-- Link to Font Awesome CSS (Example) -->
+         <link rel="stylesheet" href="path/to/fontawesome.css">
+
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
      
           
     </head>
     <body >
        
+          <div class="modal hide" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen " >
+                  <div class="modal-content ">
+                    <div class="   border-bottom-0   ">
+                        <div class="float-start mt-3 ms-4 " >
+                          <button type="button" class="btn-close  " data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <div class="row mt-2  ">
+                          <div class="col mt-2 fw-bold text-light-emphasis ms-4 fs-5 fw-normal ">Sign in</div>
+                          <div class="col mt-2 pe-5"><img class="w-25 float-end " src="./img/profiledefault.png" alt="" srcset=""></div>
+                        </div>
+                        <div class="mt-3 " >
+                          <button class="bg-white me-3 ms-4 rounded-5 border border-secondary text-light-emphasis small " >Saved</button>
+                          <button class="bg-white me-3 rounded-5 border border-secondary text-light-emphasis small" >Favorates</button>
+                          <button class="bg-white me-3 rounded-5 border border-secondary text-light-emphasis small" >Interests</button>
+                        </div>
+                        <div class="">
+                            <ul class="nav flex-column mt-1 ">
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 active ps-2 " aria-current="page" href="#" > <img src="./img/Languag.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">English</Span><span class="float-end small fw-semibold mt-1 text-black-50 ">Change Language</Span></a>
+                              </li>
+                              <li class="nav-item mt-1 mt-1">
+                                <a class="nav-link mt-2 ps-2 ps-2" href="#"> <img src="./img/helpicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Customer Service</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/listbusinessicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">List your Business <img height="23px" src="./img/freeanimation2x.gif" alt="" srcset=""></Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2 " href="#" tabindex="-1" aria-disabled="true"> <img src="./img/advertiseicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Advertise</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/mytransactions-icn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">My Transactions</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#" > <img src="./img/mytransactions-icn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Wishlist</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/managequotesicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Manage Quotes</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/we-are-hiring.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">We are Hiring </Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/settings.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Setting</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
+                              </li>
+                              <li class="nav-item mt-1">
+                                <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
+                              </li>
+                            </ul>
+                        </div> 
+                    </div>
+                   </div>
+              
+                </div>
+            </div>
           <div class="modal hide" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-fullscreen " >
                   <div class="modal-content ">
@@ -21,70 +103,6 @@
                         </div>
                     </div>
 
-                    <div class="d-none">
-                      <div class="row mt-2  ">
-                        <div class="col mt-2 fw-bold text-light-emphasis ms-4 fs-5 fw-normal ">Sign in</div>
-                        <div class="col mt-2 pe-5"><img class="w-25 float-end " src="./img/profiledefault.png" alt="" srcset=""></div>
-
-                      </div>
-                    <div class="mt-3 " >
-                      <button class="bg-white me-3 ms-4 rounded-5 border border-secondary text-light-emphasis small " >Saved</button>
-                      <button class="bg-white me-3 rounded-5 border border-secondary text-light-emphasis small" >Favorates</button>
-                      <button class="bg-white me-3 rounded-5 border border-secondary text-light-emphasis small" >Interests</button>
-                    </div>
-                    <div class="">
-                      <ul class="nav flex-column mt-1 ">
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 active ps-2 " aria-current="page" href="#" > <img src="./img/Languag.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">English</Span><span class="float-end small fw-semibold mt-1 text-black-50 ">Change Language</Span></a>
-                        </li>
-                        <li class="nav-item mt-1 mt-1">
-                          <a class="nav-link mt-2 ps-2 ps-2" href="#"> <img src="./img/helpicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Customer Service</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/listbusinessicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">List your Business <img height="23px" src="./img/freeanimation2x.gif" alt="" srcset=""></Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2 " href="#" tabindex="-1" aria-disabled="true"> <img src="./img/advertiseicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Advertise</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/mytransactions-icn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">My Transactions</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#" > <img src="./img/mytransactions-icn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Wishlist</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/managequotesicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Manage Quotes</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/we-are-hiring.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">We are Hiring </Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/settings.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Setting</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
-                        </li>
-                        <li class="nav-item mt-1">
-                          <a class="nav-link mt-2 ps-2" href="#"> <img src="./img/privacyicn.svg" alt="" srcset=""><Span class="ms-3 text-dark-emphasis fw-semibold ">Privacy policy</Span></a>
-                        </li>
-                      </ul>
-                    </div> 
-                    </div>
                        <div class="row m-0 ">
                            <div class="col-12 p-0  position-relative " style="height: 300px;">
                                <img class="img-fluid" src="https://akam.cdn.jdmagicbox.com/images/icontent/newwap/newprot_w/login_banner_28mar.png" alt="" srcset="">
@@ -120,11 +138,11 @@
                           </h5>
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
-                      <div class="modal-body " style="height: 200px;">
-                           <span  class=" position-absolute mt-1 fs-5 fw-bold ms-2 border-end pe-1">+91</span>
-                          <input type="text" placeholder=" Mobile number" class="form-control shadow-none border-0 ms-5 w-75 ">
+                      <div class="modal-body  " style="height: 250px; margin-top: 20px;">
+                           <span  class=" position-absolute mt-4 fs-5 fw-bold  border-end pe-1" style="margin-left: 85px; ">+91</span>
+                          <input type="text" placeholder=" Mobile number" class="form-control shadow-none border-0  w-75  " style="margin-left: 120px; margin-top: 20px;">
                           <button type="button" class=" mt-4  rounded-3 btn btn-primary  border-0 ps-5 pe-5 position-absolute" style="left: 150px;">Login with OTP</button>
-                           <button class="btn-sm position-absolute opacity-50 rounded-4 shadow-none border-0"  style="top: 140px; left: 188px;" >Or Login Using</button>
+                           <button class="btn-sm position-absolute opacity-50 rounded-4 shadow-none border-0"  style="top: 160px; left: 188px;" >Or Login Using</button>
                         </div>
                       <div class="modal-footer d-flex justify-content-center " >
                              
@@ -157,7 +175,7 @@
                               <a class="nav-link p-1 mt-1  " href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" ><img  src="./img/ball.svg"  ></a>
                            </li>
                            <li class="nav-item ">
-                              <a class="nav-link p-1  mt-1  "data-bs-toggle="modal" data-bs-target="#exampleModal"  href="#"><img class="p-0"  src="./img/3 line.svg" ></a>
+                              <a class="nav-link p-1  mt-1  "data-bs-toggle="modal" data-bs-target="#exampleModal1"  href="#"><img class="p-0"  src="./img/3 line.svg" ></a>
                            </li>
                       
                         </ul>
@@ -223,7 +241,7 @@
                                 </li>
                               
                                 <li class="nav-item k_menu">
-                                  <a class="nav-link ps-2 pt-1 pb-1  pe-1  text-dark-emphasis " data-bs-toggle="modal" data-bs-target="#myModal"> <img src="./img/jd_login_icon.svg"/>Login/Sing up</a>
+                                  <a class="nav-link ps-2 pt-1 pb-1  pe-1  text-white bg-primary  rounded-3 pe-3" data-bs-toggle="modal" data-bs-target="#myModal"> <img src="./img/jd_login_icon.svg"/>Login/Sing up</a>
                                 </li>
                             </ul>
                         </div>
@@ -232,7 +250,7 @@
                  
              </header>
               <main>
-                   <div class="xsmain" >
+                   <div class="p-1" >
                         <div class="pt-0 d-block d-sm-none ">
                           <div class="row container m-auto pt-0 kk3">
                               <div class="col-3 k_tbdr mt-4 "><img class=" ms-2    " height="30px" width="35px" src="./img/1.gif"  >B2B</div>
@@ -321,16 +339,16 @@
 
                                             </div>
                                             <div class="col-3 m12 ps-0 me-0  ">
-                                                <input type="mobile number" class=" form-control ms-4 text-center position-relative shadow-none border-dark" placeholder="Location"  id="mobile number" aria-describedby="emailHelp" style="width: 235px; height: 50px;">       
-                                                  <button  class="position-absolute bg-white border-0   border border-1 border-dark" style="top: 78px; left: 45px;"> <img  src="./img/Ei-location.svg.png" alt="" height="20px" width="20px"></button>
+                                                <input type="mobile number" class=" form-control ms-4 text-center position-relative shadow-none border-dark" placeholder="Location"  id="mobile number" aria-describedby="emailHelp" style="width: 235px; height: 50px; background-color: #EEEEEE;">       
+                                                  <button  class="position-absolute bg-white border-0   border border-1 border-dark p-0" style="top: 67px; left: 40px;"> <img  src="./img/Ei-location.svg.png" alt="" height="30px" width="30px" style="background-color: #EEEEEE;"></button>
                                             </div>
-                                            <div class="col-9 m12 position-relative fixed-top  " >
-                                                <a href="#" class="  position-relative " > 
-                                                    <input  type="mobile number" class="form-control shadow-none w-75 border border-1 border-dark ms-3 " placeholder="Search for packers and movers" id="mobile number" aria-describedby="emailHelp" style="width: 430px; height: 50px;  ">
+                                            <div class="col-9 m12 position-relative   " >
+                                                <div href="#" class="  position-relative " > 
+                                                    <input  type="tel" class="form-control shadow-none w-75 border border-1 border-dark ms-3 " placeholder="Search for packers and movers" id="mobile number" aria-describedby="emailHelp" style="width: 430px; height: 50px;  ">
                                                 
-                                                    <img class="position-absolute top-0 img-fluid mt-1"style="left: 80px;" src="./img/jd_mic_icon.svg" alt="" >
-                                                    <button class="btn btn-dange mt-1 top-0   position-absolute" style="left: 120px; background-color: orange;" ><img class="" src="./img/search_white_icon.svg" alt="" width="20px" height="20px"></button>
-                                                </a>
+                                                    <img class="position-absolute top-0 img-fluid mt-2"style="left: 440px;  " src="./img/jd_mic_icon.svg" alt="" >
+                                                    <button class="btn btn-dange  top-0   position-absolute" style="left: 485px; margin-top: 6px; background-color: orange;" ><img class="" src="./img/search_white_icon.svg" alt="" width="20px" height="20px"></button>
+                                                </div>
                                             </div>
                                         </div>
                                   </div>
@@ -345,7 +363,7 @@
                               <div class="row m22 mt-4 ">
                                   <div class="col-5 m22">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                                      <div class="carousel-indicators">
+                                      <div class="carousel-indicators mb-0">
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
@@ -356,19 +374,19 @@
                                         <div class="carousel-item active  " data-bs-interval="1000">
                                           <img src="./img/11.webp" class="d-block " alt="..." width="545px" height="245px">
                                         </div>
-                                        <div class="carousel-item " data-bs-interval="2000">
+                                        <div class="carousel-item " data-bs-interval="2500">
                                           <img src="./img/12.webp" class="d-block " alt="..." width="545px" height="245px">
                                         </div>
-                                        <div class="carousel-item " data-bs-interval="2000">
+                                        <div class="carousel-item " data-bs-interval="2500">
                                           <img src="./img/13.webp" class="d-block " alt="..." width="545px" height="245px">
                                         </div>
-                                        <div class="carousel-item " data-bs-interval="2000">
+                                        <div class="carousel-item " data-bs-interval="2500">
                                           <img src="./img/14.webp" class="d-block " alt="..." width="545px" height="245px">
                                         </div>
-                                        <div class="carousel-item " data-bs-interval="2000">
+                                        <div class="carousel-item " data-bs-interval="2500">
                                           <img src="./img/15.webp" class="d-block " alt="..." width="545px" height="245px">
                                         </div>
-                                        <div class="carousel-item " data-bs-interval="2000">
+                                        <div class="carousel-item " data-bs-interval="2500">
                                           <img src="./img/16.avif" class="d-block " alt="..." width="545px" height="245px">
                                         </div>
                                       </div>
@@ -377,8 +395,8 @@
                                                 <span class="carousel-control-prev-icon rounded-4  bg-black" aria-hidden="true" style="height: 25px; width: 25px;"></span>
                                                 
                                               </button>
-                                              <button class="carousel-control-next   " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                                <span class="carousel-control-next-icon rounded-4  bg-black  " aria-hidden="true" style="height: 25px; width: 25px;"></span>
+                                              <button class="carousel-control-next btn-sm  " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon rounded-4  bg-black ms-5  " aria-hidden="true" style="height: 25px; width: 25px;"></span>
                                                 
                                               </button>
                                             </div>
@@ -390,14 +408,9 @@
                                                     <span class="fw-bold fs-5 float-start text-white">B2B</span>
                                                     <p class="fw-bold  text-white opacity-50 position-absolute" style="left: 17px; top: 45px;">Quick Quotes</p>
                                                    <img class="img-fluid position-absolute "  src="./img/b2b.webp" alt="" style="right: 0px; bottom:0px; ">
-                                                   <div class="btn-group dropend kkk">
-                                                    <button type="button" class="btn btn-secondary dropdown-toggle small" data-bs-toggle="dropdown" aria-expanded="false"  style="top: 160px; right: 89px;">
-                                                      
-                                                    </button>
-                                                    <ul class="dropdown-menu  ">
-                                                     <a href="#" > Explore</a>
-                                                    </ul>
-                                                  </div>
+                                                    <span class=" bg-primary position-absolute bottom-0 start-0 mb-4 text-white b22b">Explore <img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
+                                                    <span class="  position-absolute bottom-0 start-0 mb-4 text-white b33b" ><img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
+                                                    
                                 
                                              </div>
                                              <div class="col-3 p-3 m22 position-relative k_zoom me-2 border border-1 rounded-4 " style="background-color: #A100CF; width: 175px;">
@@ -406,42 +419,24 @@
                                                     <p class="fst-normal  text-white opacity-50 position-absolute" style="top: 85px;">nearest</p>
                                                     <p class="fst-normal  text-white opacity-50 position-absolute" style="top: 100px;" >vendor</p>
                                                    <img class="img-fluid position-absolute "  src="./img/web_repair_image.webp" alt="" style="right: 0px; bottom:0px; ">
-                                                   <div class="btn-group dropend kkk">
-                                                    <button type="button" class="btn btn-secondary dropdown-toggle small" data-bs-toggle="dropdown" aria-expanded="false"  style="top: 160px; right: 69px;">
-                                                      
-                                                    </button>
-                                                    <ul class="dropdown-menu  ">
-                                                     <a href="#" > Explore</a>
-                                                    </ul>
-                                                  </div>
+                                                   <span class=" bg-primary position-absolute bottom-0 start-0 mb-4 text-white b44b" style="background-color: #A100CF;">Explore <img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
+                                                   <span class="  position-absolute bottom-0 start-0 mb-4 text-white b55b" ><img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
                                 
                                              </div>
                                              <div class="col-3 p-3 m22 position-relative k_zoom me-2 border border-1 rounded-4" style="background-color: #6769D0 ; width: 175px;">
                                                     <span class="fw-bold fs-5 float-start text-white">REAL STATE</span>
                                                     <p class="fw-bold  text-white opacity-50 position-absolute" style="left: 17px; top: 45px;">Finest Agents</p>
                                                    <img class="img-fluid position-absolute "  src="https://akam.cdn.jdmagicbox.com/images/icons/website/newhome/1/realestate.png?v=1.0?w=1920&q=75" alt="" style="right: 0px; bottom:0px; ">
-                                                   <div class="btn-group dropend kkk">
-                                                    <button type="button" class="btn btn-secondary dropdown-toggle small" data-bs-toggle="dropdown" aria-expanded="false"  style="top: 130px; right: 69px;">
-                                                      
-                                                    </button>
-                                                    <ul class="dropdown-menu  ">
-                                                     <a href="#" > Explore</a>
-                                                    </ul>
-                                                  </div>
+                                                   <span class=" bg-primary position-absolute bottom-0 start-0 mb-4 text-white b66b">Explore <img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
+                                                   <span class="  position-absolute bottom-0 start-0 mb-4 text-white b77b" ><img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
                                 
                                              </div>
                                              <div class="col-3 p-3 m22 position-relative k_zoom me-2 border border-1 rounded-4 " style="background-color: #00674B; width: 175px;">
                                                     <span class="fw-bold fs-5 float-start text-white">DOCTORS</span>
                                                     <p class="fw-bold  text-white opacity-50 position-absolute" style="left: 17px; top: 45px;">Book Now</p>
                                                    <img class="img-fluid position-absolute "  src="./img/b2b.webp" alt="" style="right: 0px; bottom:0px; ">
-                                                   <div class="btn-group dropend kkk">
-                                                    <button type="button" class="btn btn-secondary dropdown-toggle small" data-bs-toggle="dropdown" aria-expanded="false"  style="top: 160px; right: 120px;">
-                                                      
-                                                    </button>
-                                                    <ul class="dropdown-menu  ">
-                                                     <a href="#" > Explore</a>
-                                                    </ul>
-                                                  </div>
+                                                   <span class=" bg-primary position-absolute bottom-0 start-0 mb-4 text-white b88b">Explore <img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
+                                                    <span class="  position-absolute bottom-0 start-0 mb-4 text-white b99b" ><img class="bg-white"  width="15px" height="15px" src="./img/chevron-right-solid (3).svg" alt="" srcset=""></span>
                                 
                                              </div>
                                              
@@ -703,8 +698,8 @@
                                          
                                    </div>
                                    <div class="col-4 m17">
-                                    <h5 class="text-dark fw-bold mt-2 mb-0" style="margin-right: 220px;">Kanha imperil</h5>
-                                    <h7 class=" " style="margin-right: 235px;">Nagpur city-Nagpur</h7>
+                                    <h5 class="text-dark fw-bold mt-2 mb-0" style="margin-right: 250px;">Kanha imperil</h5>
+                                    <h7 class=" " style="margin-right: 255px;">Nagpur city-Nagpur</h7>
                                     <img width="400px" height="200px" class=" mt-3" src="./img/-rf2783b1lm.avif" alt="" srcset="">
                                     <div class="mt-4 ">
                                        <img class=" float-start " width="50px" height="50px" src="./img/profileImg (2)" alt="" srcset="">
@@ -721,14 +716,14 @@
                                      
                                    </div>
                                    <div class="col-4 m17">
-                                    <h5 class="text-dark fw-bold mt-2 mb-0" style="margin-right: 220px;">Virat Farm House</h5>
-                                    <h7 class=" " style="margin-right: 235px;">Takli Bhansali - Nagpur</h7>
-                                    <img width="400px" height="200px" class=" mt-3" src="./img/home.avif" alt="" srcset="">
+                                    <h5 class="text-dark fw-bold mt-2 mb-0" style="margin-right: 220px;">Sevenstar Clinics</h5>
+                                    <h7 class=" " style="margin-right: 265px;">Sarwaniya maharaj</h7>
+                                    <img width="400px" height="200px" class=" mt-3" src="https://images.jdmagicbox.com/comp/nagpur/m3/0712px712.x712.170902094033.i6m3/catalogue/sevenstar-hospital-nandanvan-colony-nagpur-private-hospitals-efn4v2rr3c.jpg?clr=#262640" alt="" srcset="">
                                     <div class="mt-4 ">
                                        <img class=" float-start " width="50px" height="50px" src="./img/profileImg" alt="" srcset="">
                                     </div>
                                         <div class="float-start m-0 ms-3  ">
-                                          <span class=" fs-4 fw-bold text-dark mb-0 me-4  ">vijay </span>
+                                          <span class=" fs-4 fw-bold text-dark mb-0 me-4  ">Kuldeep </span>
                                           <p class=" ">wrote a review</p>
                                           <img class="img-fluid ms-0 d-flex position-relative  " src="./img/star-rating.svg" alt="" srcset="">
                                           
@@ -805,14 +800,15 @@
                            </div>
                            
                           <div class="outer-container"  >
-                              <ul class="nav nav-tabs mt-4 k_slide position-relative inner-container  " >
-                                    <div class="btn-group" role="group" aria-label="Basic outlined example">
-                                      <button type="button" class="btn btn-outline-primary position-absolute "><i class="fa-solid fa-chevron-left"></i>
-                                      </button>
-                                     
-                                      <button type="button" class="btn btn-outline-primary position-absolute"><i class="fa-solid fa-chevron-right"></i>
-                                      </button>
-                                    </div>
+                              <ul class="nav nav-tabs mt-4 k_slide  inner-container   " >
+                                        <div class="position-relative">  
+                                          <div class="btn-group-sm" role="" aria-label="Basic outlined example"> 
+                                  
+                                            <button type="button" class="btn btn-outline-light position-absolute ms-3 fw-bold" style="top: 70px;"><span class="fs-3"><</span></button>
+                                            <button type="button" class="btn btn-outline-light position-absolute fw-bold   " style="top: 70px; left: 1260px;"><span class="fs-3">></span></button>
+                                            
+                                          </div>
+                                        </div>
                                 <li class="nav-item m32 p-0 border border-2 border-black border-opacity-50 rounded-3 ms-3 me-3  ">
                                   <a class="nav-link m32 p-0  " href="#">
                                       <img  class="img-fluid rounded-3 pe-1" src="./img/1alisticle_1688623915068_w8y3a_847x400.avif" alt="">
@@ -921,8 +917,16 @@
                        </div>
 
                            <div class="outer-container">
+                            
                             <ul class="nav nav-tabs mt-4 k_slide position-relative inner-container  ">
-                             
+                              <div class="position-relative">  
+                                <div class="btn-group-sm " role="" aria-label="Basic outlined example"> 
+                        
+                                  <button type="button" class="btn btn-outline-light position-absolute   ms-3 fw-bold" style="top: 90px;"><span class="fs-3"><</span></button>
+                                  <button type="button" class="btn btn-outline-light position-absolute fw-bold   " style="top: 90px; left: 1250px;"><span class="fs-3">></span></button>
+                                  
+                                </div>
+                              </div>
                                
                               <li class="nav-item m33 p-0 border border-2 border-black border-opacity-50 rounded-3 ms-3  me-3  ">
                                 <a class="nav-link m33 p-0  " href="#">
